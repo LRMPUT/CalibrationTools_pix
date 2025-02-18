@@ -1,3 +1,4 @@
+from .pix import *  # noqa: F401, F403
 from .default_project import *  # noqa: F401, F403
 from .rdv import *  # noqa: F401, F403
 from .x1 import *  # noqa: F401, F403
