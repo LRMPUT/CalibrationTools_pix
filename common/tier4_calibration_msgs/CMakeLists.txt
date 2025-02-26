@@ -15,9 +15,13 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/BoolStamped.msg"
   "msg/CalibrationPoints.msg"
   "msg/CalibrationResult.msg"
+  "msg/EstimationResult.msg"
   "msg/Files.msg"
+  "msg/Float32Stamped.msg"
+  "msg/TimeDelay.msg"
   "srv/Empty.srv"
   "srv/FilesSrv.srv"
   "srv/FilesListSrv.srv"
