@@ -6,7 +6,7 @@
 
   <arg name="use_receive_time" default="true" description="If sensor synchronization does not work, we can force the use of system time"/>
   <arg name="use_rectified_image" default="true" description="We need to know if the image has been rectified so we can determine the use of K or P"/>
-  <arg name="calibration_pairs" default="8" description="Number of lidar-image pairs for the calibration to converge"/>
+  <arg name="calibration_pairs" default="12" description="Number of lidar-image pairs for the calibration to converge"/>
   <arg name="calibration_pairs_min_distance" default="0.7" description="Minimum allowed between a new detection and current pairs"/>
 
   <arg name="lidar_model">
